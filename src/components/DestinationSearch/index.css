@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+
+.heading {
+  font-size: 50px;
+  color: #252627;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+
+.search-card-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+
+.search-card {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.search-img {
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
+  width: 40vw;
+  padding: 5px;
+}
